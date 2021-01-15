@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: block;
+  flex-direction: column;
+  font-size: calc(30px + 2vmin);
+  font-weight: bold;
+  color: #01548c;
+  padding-top: 30px;
+}
+
+.button1 {
+  margin: 5px;
+  width: 150px;
+  height: 80px;
+  background: -webkit-linear-gradient(#A2FFF4, #3cffc1);
+  border: 1px solid #018c77;
+  color: #015f5f;
+}
+.button1:hover {
+  background: -webkit-linear-gradient(#3cffc1, #A2FFF4);
+  box-shadow: 0 -1px 1px #606060;
+}
+
+.buttonSym {
+  width: 150px;
+  height: 80px;
+  background: -webkit-linear-gradient(#a2cfff, #3cb1ff);
+  border: 1px solid #01548c;
+  color: #015f5f;
+}
+
+.buttonSym:hover {
+  background: -webkit-linear-gradient(#3cb1ff, #a2cfff);
+  box-shadow: 0 -1px 1px #606060;
+}
+button {
+  height: 80px;
+  margin: 5px;
+  border: 1px solid #018c77;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 50px;
+  outline: none;
+  box-shadow: 1px 1px 1px #606060;
+}
+
+.button0 {
+  margin: 5px;
+  width: 305px;
+  height: 80px;
+  background: -webkit-linear-gradient(#A2FFF4, #3cffc1);
+  color: #015f5f;
+}
+.button0:hover {
+  background: -webkit-linear-gradient(#3cffc1, #A2FFF4);
+  box-shadow: 0 -1px 1px #606060;
+}
+
+.buttonC {
+  margin: 5px;
+  width: 305px;
+  height: 80px;
+  background: -webkit-linear-gradient(#b8a0f8, #9e3dff);
+  border: 1px solid #58208f;
+  color: white;
+}
+.buttonC:hover {
+  background: -webkit-linear-gradient(#9e3dff, #b8a0f8);
+  box-shadow: 0 -1px 1px #606060;
+}
+.buttonR {
+  width: 305px;
+  height: 80px;
+  background: -webkit-linear-gradient(#b8a0f8, #9e3dff);
+  border: 1px solid #58208f;
+  color: white;
+}
+
+.buttonR:hover {
+  background: -webkit-linear-gradient(#9e3dff, #b8a0f8);
+  box-shadow: 0 -1px 1px #606060;
+}
+
+.main{
+  width: calc(500px + 30vmin);
+  height: calc(500px + 30vmin);
+  background: -webkit-linear-gradient(#d9dee2, #b3bfca);
+  text-align: center;
+  margin: 80px auto 0 auto;
+  justify-self: center;
+  box-shadow: 1px 1px 1px #606060;
+}
+
+.input {
+  margin: 5px;
+  width: 630px;
+  height: 70px;
+  text-align: right;
+  border-radius: 10px;
+  border-width: 1px;
+  font-weight: bold;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 40px;
+  outline: none;
+  box-shadow: 1px -1px 1px #606060;
+}
+
+.next {
+  display: inline;
+}
+
+.str{
+  width: auto;
+  height: 40px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 10px;
+}
